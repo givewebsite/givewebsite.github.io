@@ -28,42 +28,86 @@ and (max-device-width : 1024px) {
 a:link {
     color: #FFFFFF;
 	text-decoration: none;
-}
+    }
 
 /* visited link */
 a:visited {
     color: #FFFFFF;
 	text-decoration: none;
-}
+    }
 
 /* mouse over link */
 a:hover {
     color: #C0C0C0;
 	text-decoration: none;
-}
+    }
 
 /* selected link */
 a:active {
     color: #FFFFFF;
 	text-decoration: none;
-}
+    }
 
 
 html { 
         background: url('https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11183464_1622307708007793_7406500492989610861_n.jpg?oh=3e68bd9c5894dae0ea36e9461e9033c3&oe=56AA6809') repeat center fixed; 
         
         background-size: 60%;
-}
+    }
 
 
 .navbar li {
-    
     font-size: 35px;
     display: inline;
     margin: 20px;
     padding: 20px;
     color
-}
+    }
+
+.container-fluid{
+    left: 0px;
+	position: absolute;
+	background-color: #6699CC;
+    margin-top: 100px;
+	height: 70px;
+	width: 1349.4px;
+	}
+
+#homefooter{
+	margin-left: 565px;
+	margin-top: 25px;
+	font-size: 20px;
+	font-family: 'Fjord One', serif;
+	position: absolute;
+	display: inline;
+	
+	}	
+
+#tutorialfooter{
+	margin-left: 660px;
+	margin-top: 25px;
+	font-size: 20px;
+	font-family: 'Fjord One', serif;
+	position: absolute;
+	display: inline;
+	
+	}
+
+#contactfooter{
+	margin-left: 755px;
+	margin-top: 25px;
+	font-family: 'Fjord One', serif;
+	font-size: 20px;
+	position: absolute;
+	display: inline;
+	
+	}
+
+
+
+
+
+
 
 
 
