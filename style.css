@@ -74,34 +74,16 @@ html {
 	}
 
 #homefooter{
-	margin-left: 565px;
-	margin-top: 25px;
-	font-size: 20px;
+	margin-left: 610px;
+	margin-top: 15px;
+	font-size: 15px;
 	font-family: 'Fjord One', serif;
 	position: absolute;
 	display: inline;
-	
+    color: white;
 	}	
 
-#tutorialfooter{
-	margin-left: 660px;
-	margin-top: 25px;
-	font-size: 20px;
-	font-family: 'Fjord One', serif;
-	position: absolute;
-	display: inline;
-	
-	}
 
-#contactfooter{
-	margin-left: 755px;
-	margin-top: 25px;
-	font-family: 'Fjord One', serif;
-	font-size: 20px;
-	position: absolute;
-	display: inline;
-	
-	}
 
 
 
