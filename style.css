@@ -3,70 +3,70 @@
 and (min-device-width : 320px)   
 and (max-device-width : 480px) {  
 /* Styles */  
-	}  
+}  
   
 /* Smartphones (landscape) ----------- */  
 @media only screen   
 and (min-width : 321px) {  
 /* Styles */  
-	}  
+}  
   
 /* Smartphones (portrait) ----------- */  
 @media only screen   
 and (max-width : 320px) {  
 /* Styles */  
-	}  
+}  
   
 /* iPads (portrait and landscape) ----------- */  
 @media only screen   
 and (min-device-width : 768px)   
 and (max-device-width : 1024px) {  
 /* Styles */  
-	}  
+}  
 	
 /* unvisited link */
 a:link {
     color: #FFFFFF;
 	text-decoration: none;
-    }
+}
 
 /* visited link */
 a:visited {
     color: #FFFFFF;
 	text-decoration: none;
-    }
+}
 
 /* mouse over link */
 a:hover {
     color: #C0C0C0;
 	text-decoration: none;
-    }
+ }
 
 /* selected link */
 a:active {
     color: #FFFFFF;
 	text-decoration: none;
-    }
+}
 
 
-
-html { 
-        background: url('https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11737971_1623334634571767_8600430482138184550_n.jpg?oh=7e32dedc57ca14c011ca14f39e51050c&oe=5669F702') repeat center center fixed; 
+html{
+    background: url('http://blueseptember.org.au/wp-content/uploads/2015/07/Blue-square.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         
-        background-size: 60%;
-        background-repeat-x-stop: 80px;
-         z-index: -1;
-    
         
-    }
+}
 
 
 .navbar li {
-    font-size: 30px;
+    font-size: 20px;
     display: inline;
     margin: 20px;
     padding: 20px;
-    }
+}
+
 
 
 
