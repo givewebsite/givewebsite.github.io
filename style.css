@@ -24,6 +24,11 @@ and (max-device-width : 1024px) {
 /* Styles */  
 }  
 	
+@media screen and (min-width:  1350px) {
+   .navbar { text-align: center; }
+   .navbar-header { display: inline-block; float: none !important; }
+   .navbar-collapse.collapse { display: inline-block !important; }
+
 /* unvisited link */
 a:link {
     color: #FFFFFF;
