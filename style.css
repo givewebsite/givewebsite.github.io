@@ -9,8 +9,9 @@
     position: absolute;
     font-size: 30px;
     color: black;
-    margin-left: 600px;
-    margin-top: 400px;
+    margin-left: 615px;
+    margin-top: 370px;
+    
 }
 
 
@@ -18,26 +19,31 @@
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-    .jumbotron h1{
-        font-size: 24px;
+    .main h1{
+        font-size: 20px;
+        margin-left: 250px;
+        margin-top: 300px;
 }
 
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 991px) { 
-    .jumbotron h1{
-        font-size: 44px;
+    .main h1{
+        font-size: 30px;
+        margin-left: 430px
+        margin-top: 400px
 }
         
-    .jumbotron p {
-        padding: 0 10px;
+    
 }
     
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 1199px) {
-    .jumbotron h1 {
-        font-size: 56px;
-        margin-bottom: 30px;
+    .main h1 {
+        font-size: 50px;
+        margin-right: 470px;
+        margin-right: 400px;
+        
     }
 
 
