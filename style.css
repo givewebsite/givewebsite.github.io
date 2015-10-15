@@ -20,31 +20,38 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
     .main h1{
-        font-size: 20px;
-        margin-left: 250px;
-        margin-top: 300px;
+        font-size: 40px;
+        margin-left: 100px;
+        margin-top: 250px;
 }
 
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 991px) { 
     .main h1{
-        font-size: 30px;
-        margin-left: 430px
-        margin-top: 400px
+        font-size: 40px;
+        margin-left: 430px;
+        margin-top: 400px;
 }
         
-    
-}
     
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 1199px) {
     .main h1 {
-        font-size: 50px;
-        margin-right: 470px;
-        margin-right: 400px;
+        font-size: 40px;
+        margin-left: 520px;
+        margin-top: 400px;
         
-    }
+}
+    
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .main h1{
+        font-size: 40px;
+        margin-left: 600px;
+        margin-top: 400px;
+}
+    
 
 
 
