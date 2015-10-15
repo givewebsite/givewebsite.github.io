@@ -1,66 +1,45 @@
 
-	
-/* unvisited link */
-a:link {
-    color: #FFFFFF;
-	text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: #FFFFFF;
-	text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: #C0C0C0;
-	text-decoration: none;
- }
-
-/* selected link */
-a:active {
-    color: #FFFFFF;
-	text-decoration: none;
+.jumbotron{
+    margin-top: 50px;
+    text-align: center;
+    background-image: url(newyork.jpg);
+    height: 720px;
+    margin-bottom: 0px;
 }
 
 
-html{
-    background: url('http://blueseptember.org.au/wp-content/uploads/2015/07/Blue-square.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        
-        
+.jumbotron img{
+    margin-top: 30px;
 }
 
 
-.navbar li {
-    font-size: 1.2em;
-    display: inline;
-    margin: 1.3%;
-    padding: 1.3%;
+/* Respsonsive Styling */
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+    .jumbotron h1{
+        font-size: 24px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
+    .jumbotron p{
+        font size: 16px;
+        padding: 0px;
+}
+            
 
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 991px) { 
+    .jumbotron h1{
+        font-size: 44px;
+}
+        
+    .jumbotron p {
+        padding: 0 10px;
+}
 
-	
-
-
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 1199px) {
+    .jumbotron h1 {
+        font-size: 56px;
+        margin-bottom: 30px;
+    }
