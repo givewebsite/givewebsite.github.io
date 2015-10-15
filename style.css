@@ -1,5 +1,4 @@
 
-
 .main img{
     position: absolute;
     height: 100%;
@@ -7,13 +6,13 @@
 }
 
 .main h1{
-    position: fixed;
+    position: absolute;
+    font-size: 30px;
+    color: black;
     margin-left: 600px;
     margin-top: 400px;
-    color: black;
-    font-size: 30px;
-    
 }
+
 
 /* Respsonsive Styling */
 
@@ -22,12 +21,7 @@
     .jumbotron h1{
         font-size: 24px;
 }
-    
-    .jumbotron p{
-        font size: 16px;
-        padding: 0px;
-}
-            
+
 
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 991px) { 
@@ -38,10 +32,25 @@
     .jumbotron p {
         padding: 0 10px;
 }
-
+    
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 1199px) {
     .jumbotron h1 {
         font-size: 56px;
         margin-bottom: 30px;
     }
+
+
+
+
+
+
+
+
+
+    
+
+
+	
+
+
